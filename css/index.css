@@ -1,4 +1,6 @@
+@import "fonts.css";
 @import "variables.css";
+@import "top-bar.css";
 
 /* ================ Default Styles ================ */
 html {
@@ -17,6 +19,11 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   font-family: var(--primary-font);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {

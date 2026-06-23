@@ -1,0 +1,41 @@
+.top-bar {
+  padding: 2rem;
+  background-color: #f0f2f7;
+}
+
+.top-bar__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.top-bar__link {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+}
+
+.top-bar__left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.top-bar__phone {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.fa-envelope,
+.fa-phone {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.top-bar__email {
+  display: flex;
+  gap: 0.5rem;
+}
