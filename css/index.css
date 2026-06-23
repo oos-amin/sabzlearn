@@ -1,0 +1,33 @@
+@import "variables.css";
+
+/* ================ Default Styles ================ */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  outline: none;
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+}
+<<<<<<< HEAD
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: #1e83f0;
+}
+=======
+>>>>>>> 7625ae5 (style: add default styles)
