@@ -19,6 +19,7 @@
 
 .nav__right-item {
   position: relative;
+  padding-bottom: 2rem;
 }
 
 .nav__right-link {
@@ -30,6 +31,8 @@
 
 .dropdown-icon {
   color: #7f8187;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 /* Nav Submenu */
@@ -54,6 +57,10 @@
   opacity: 1;
   visibility: visible;
   top: 4.5rem;
+}
+
+.nav__right-item:hover .dropdown-icon {
+  transform: rotate(180deg);
 }
 
 .nav__right-submenu-item {
