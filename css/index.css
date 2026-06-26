@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "variables.css";
 @import "top-bar.css";
+@import "nav.css";
 
 /* ================ Default Styles ================ */
 html {
@@ -34,4 +35,9 @@ a {
 
 a:hover {
   color: #1e83f0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
 }
