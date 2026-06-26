@@ -19,7 +19,7 @@
 
 .nav__right-item {
   position: relative;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .nav__right-link {
@@ -38,7 +38,7 @@
 /* Nav Submenu */
 .nav__right-submenu {
   position: absolute;
-  top: 3.5rem;
+  top: 5.5rem;
   left: 0;
   right: 0;
   background-color: var(--white-color);
@@ -56,7 +56,7 @@
 .nav__right-item:hover .nav__right-submenu {
   opacity: 1;
   visibility: visible;
-  top: 4.5rem;
+  top: 6.5rem;
 }
 
 .nav__right-item:hover .dropdown-icon {

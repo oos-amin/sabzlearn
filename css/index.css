@@ -41,3 +41,84 @@ button {
   border: none;
   background-color: transparent;
 }
+
+/* ================ Section: Landing ================ */
+.landing {
+  text-align: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../images/background_landing.jfif") no-repeat center center;
+  background-size: cover;
+  color: var(--white-color);
+  padding: 10rem 0;
+}
+
+.landing__title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.landing__caption {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.landing__search {
+  position: relative;
+  margin: 2rem auto;
+  width: 70rem;
+}
+
+.landing__search-input {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 2.5rem 2.5rem 2.5rem 8rem;
+  border: none;
+}
+
+.landing__search-btn {
+  position: absolute;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  width: 6rem;
+  height: 6rem;
+  left: 0.8rem;
+  top: 0.8rem;
+}
+.landing__search-btn svg {
+  font-size: 3rem;
+}
+
+.landing__status {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.landing__status-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__status-item svg {
+  fill: var(--white-color);
+}
+
+.landing__count {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.landing__info {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
