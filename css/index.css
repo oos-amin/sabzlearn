@@ -246,3 +246,51 @@ button {
   color: var(--primary-color);
   font-weight: bold;
 }
+
+/* ================ Section: About Us ================ */
+.about-us {
+  margin: 4rem 0;
+}
+
+.about-us__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.about-us__box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 11rem;
+}
+
+.about-us__box svg {
+  font-size: 5.5rem;
+  color: #6d6d6d;
+}
+
+.about-us__box-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.about-us__box-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.about-us__box-caption {
+  color: #212529;
+  font-size: 1.5rem;
+}
