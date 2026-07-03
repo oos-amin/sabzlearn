@@ -294,3 +294,32 @@ button {
   color: #212529;
   font-size: 1.5rem;
 }
+
+/* ================ Section: Popular ================ */
+.popular {
+  margin: 4rem 0;
+}
+
+.popular .popular__header {
+  margin-bottom: 2rem;
+}
+
+.popular .course-box {
+  transform: none;
+}
+
+/* ================ Swiper Styles ================ */
+.swiper-pagination-bullet {
+  background-color: var(--primary-color);
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.swiper-pagination {
+  position: static;
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50% !important;
+}
