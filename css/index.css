@@ -300,11 +300,13 @@ button {
   margin: 4rem 0;
 }
 
-.popular .popular__header {
+.popular .popular__header,
+.presell .presell__header {
   margin-bottom: 2rem;
 }
 
-.popular .course-box {
+.popular .course-box,
+.presell .course-box {
   transform: none;
 }
 
