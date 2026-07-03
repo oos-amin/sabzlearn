@@ -1,0 +1,30 @@
+.my-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+}
+
+.header__title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.header__title::before {
+  content: "";
+  position: absolute;
+  width: 0.5rem;
+  height: 5.5rem;
+  right: -1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+.header__caption {
+  font-size: 1.5rem;
+  color: #9c9c9c;
+}

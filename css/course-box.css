@@ -1,0 +1,65 @@
+.course-box {
+  border-radius: 1rem;
+  background-color: var(--white-color);
+  box-shadow: 0 0 19px rgba(168, 172, 185, 0.3);
+  margin: 2rem 0;
+  transition: all 400ms ease;
+}
+.course-box:hover {
+  transform: translateY(-1rem);
+}
+
+.course-box__header-img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.course-box__main {
+  padding: 1.5rem;
+}
+
+.course-box__main-link {
+  display: block;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.course-box__main-teacher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-box__main-teacher-info {
+  padding: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.course-box__main-stars {
+  display: flex;
+  color: orange;
+}
+
+.course-box__main-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-box__main-status-price {
+  font-size: 1.7rem;
+}
+
+.course-box__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e8e8e8e8;
+  padding: 1.3rem 0;
+}
+
+.course-box__footer-link {
+  color: var(--primary-color);
+  font-weight: bold;
+}
