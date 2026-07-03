@@ -21,16 +21,18 @@ const swiper = new Swiper(".swiper", commonSettings);
 
 const popularSwiper = new Swiper(".popular__swiper", {
   ...commonSettings,
+
   autoplay: {
     delay: 2000,
-    disableOnInteraction: true,
+    disableOnInteraction: false,
   },
 });
 
 const presellSwiper = new Swiper(".presell__swiper", {
   ...commonSettings,
+
   autoplay: {
     delay: 3000,
-    disableOnInteraction: true,
+    disableOnInteraction: false,
   },
 });

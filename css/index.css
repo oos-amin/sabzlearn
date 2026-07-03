@@ -82,6 +82,7 @@ button {
     linear-gradient(rgba(0, 0, 0, 0.5)),
     url("../images/background_landing.jfif") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   color: var(--white-color);
   padding: 10rem 0;
 }
@@ -308,6 +309,79 @@ button {
 .popular .course-box,
 .presell .course-box {
   transform: none;
+}
+
+/* ================ Section: Articles ================ */
+.articles {
+  margin: 4rem 0;
+}
+
+.articles-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles-header__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-header__link:hover {
+  color: var(--white-color);
+}
+
+.articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Article Box */
+.article-box {
+  border-radius: 1rem;
+  background-color: var(--white-color);
+  box-shadow: 0 0 19px rgba(168, 172, 185, 0.3);
+  margin: 2rem 0;
+  transition: all 400ms ease;
+  padding: 1rem 2rem 3rem 2rem;
+}
+
+.article-box:hover {
+  transform: translateY(-1rem);
+}
+
+.article-box__img {
+  width: 100%;
+}
+
+.article-box__title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.article-box__caption {
+  font-size: 1.2rem;
+  height: 6rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.article-box__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 4rem;
+  border: solid 2px var(--primary-color);
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+  transition: all 400ms ease;
+}
+
+.article-box__btn:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
 }
 
 /* ================ Swiper Styles ================ */
