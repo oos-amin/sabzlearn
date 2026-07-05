@@ -118,7 +118,7 @@
   color: #858c96;
 }
 
-/* ============= Progress Bar ============= */
+/* ============= Section: Progress Bar ============= */
 .course-progress {
   border-radius: 1rem;
   margin: 3rem 0;
@@ -147,6 +147,43 @@
   background-color: #1fbd50;
 }
 
+/* ============= Section: Course Description ============= */
+.course-description {
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
+}
+
+.course-description__img {
+  display: block;
+  width: 100%;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+
+.course-description__caption {
+  margin-top: 2rem;
+  color: #7a7a7a;
+  font-size: 1.5rem;
+}
+
+.course-description__buttons {
+  margin-top: 4rem;
+}
+
+.course-description__buttons-link {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.course-description__buttons-link:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
 /* ============= Sidebar ============= */
 .course-sidebar {
   width: 35%;
