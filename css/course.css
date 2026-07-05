@@ -16,8 +16,8 @@
 
 /* ============= Section: Course Info ============= */
 .course-info {
+  padding: 2rem 0;
 }
-
 .course-info__wrapper {
   display: flex;
 }
@@ -68,4 +68,86 @@
 .course-info__video {
   width: 100%;
   border-radius: 1rem;
+}
+
+/* ============= Course Wrapper ============= */
+.course-content__wrapper {
+  display: flex;
+}
+
+.course-main-content {
+  width: 65%;
+}
+
+/* ============= Section:Course Stats ============= */
+.course-stats {
+}
+
+.course-stats__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.course-stats__box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 5px 30px rgba(70, 72, 77, 0.08);
+}
+
+.course-stats__box svg {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+
+.course-stats__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-stats__title {
+  font-size: 1.6rem;
+  color: #858c96;
+}
+
+.course-stats__subtitle {
+  font-size: 1.6rem;
+  color: #858c96;
+}
+
+/* ============= Progress Bar ============= */
+.course-progress {
+  border-radius: 1rem;
+  margin: 3rem 0;
+  padding: 2rem 2rem 1.2rem 2rem;
+  background-color: #f0f2f7;
+}
+
+.course-progress__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1.5rem;
+}
+
+.course-progress__header svg {
+  font-size: 2.5rem;
+  color: #7b868a;
+}
+
+.course-progress__title {
+  color: #7b868a;
+  font-size: 1.5rem;
+}
+
+.progress-bar {
+  background-color: #1fbd50;
+}
+
+/* ============= Sidebar ============= */
+.course-sidebar {
+  width: 35%;
 }
