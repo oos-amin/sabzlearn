@@ -80,9 +80,6 @@
 }
 
 /* ============= Section:Course Stats ============= */
-.course-stats {
-}
-
 .course-stats__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -184,6 +181,81 @@
   color: var(--white-color);
   background-color: var(--primary-color);
 }
+
+/* ============ Section: Course Accordion ============ */
+.description__topic {
+  margin-top: 4rem;
+}
+
+.accordion-item {
+  background-color: #f7f9fa;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem !important;
+  overflow: hidden;
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button {
+  background-color: #f7f9fa;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+
+.accordion-button::after {
+  position: absolute;
+  left: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-position: center;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f7f9fa;
+}
+
+.description__topic-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: #f4f6f8;
+}
+
+.description__topic-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.description__topic-right svg {
+  color: #7a7a7a;
+  font-size: 1.7rem;
+}
+
+.description__topic-count {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: solid 1px #b1bbbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #464749;
+}
+
+.description__topic-link {
+  font-size: 1.5rem;
+  color: #464749;
+}
+
+.description__topic-time {
+  font-size: 1.5rem;
+  color: #464749;
+}
+
 /* ============= Sidebar ============= */
 .course-sidebar {
   width: 35%;
