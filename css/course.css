@@ -256,6 +256,71 @@
   color: #464749;
 }
 
+/* ============= Section: Teacher Details ============= */
+.teacher-details {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
+}
+
+.teacher-details__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teacher-details__right {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-details__img {
+  width: 62px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px #00000021;
+}
+
+.teacher-details__titles {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.teacher-details__name {
+  color: #7b868a;
+}
+
+.teacher-details__skills {
+  color: #7b868a;
+  font-size: 1.2rem;
+}
+
+.teacher-details__role {
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.teacher-details__role svg {
+  font-size: 1.8rem;
+}
+
+.teacher-details__role-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-right: 0.4rem;
+}
+
+.teacher-details__footer {
+  margin-top: 1rem;
+  color: #7b868a;
+  font-size: 14px;
+}
+
 /* ============= Sidebar ============= */
 .course-sidebar {
   width: 35%;
