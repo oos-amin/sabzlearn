@@ -1,0 +1,73 @@
+@import "fonts.css";
+@import "variables.css";
+@import "defaults.css";
+@import "utility-classes.css";
+@import "top-bar.css";
+@import "nav.css";
+@import "course-box.css";
+@import "breadcrumb.css";
+@import "related-course.css";
+@import "pagination.css";
+@import "footer.css";
+
+/*  ================ Article Page Layout  ================ */
+.article-content__wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.article-main-content {
+  width: 65%;
+}
+
+.course-sidebar {
+  width: 35%;
+}
+
+/*  ============= Sidebar ============= */
+/* Quick Access Links */
+.quick-access__list {
+  margin-top: 2rem;
+}
+
+.quick-access_item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0.9rem 1.3rem 0.9rem 1rem;
+  transition: all 400ms ease;
+}
+
+.quick-access_item:hover {
+  padding-right: 2rem;
+  background-color: #f8f9fa;
+}
+
+.quick-access_item svg {
+  font-size: 1.4rem;
+  color: #909aa7;
+  transition: all 300ms ease;
+}
+
+.quick-access_item:hover.quick-access_item svg {
+  color: var(--primary-color);
+}
+
+.quick-access_link {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+/* Latest Articles */
+.latest-articles__list {
+  margin-top: 2rem;
+}
+
+.latest-articles__item {
+  border-bottom: 1px solid #eeeeee;
+  padding: 1rem 0;
+}
+
+.latest-articles__link {
+  font-size: 1.5rem;
+}

@@ -7,6 +7,7 @@
 @import "breadcrumb.css";
 @import "course-box.css";
 @import "pagination.css";
+@import "related-course.css";
 @import "footer.css";
 
 /* ============= Main ============= */
@@ -328,21 +329,6 @@
 }
 
 /* Register Section */
-.course-details {
-  position: sticky;
-  top: 2rem;
-}
-
-.course-detail {
-  border-radius: 0.5rem;
-  padding: 2.2rem;
-  box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
-  border: 1px solid #f2f2f2;
-}
-
-.course-detail:not(:first-child) {
-  margin-top: 1rem;
-}
 
 .course-detail__register {
   text-align: center;
@@ -463,41 +449,4 @@
 .course-detail__topic-link {
   color: blue;
   font-weight: bold;
-}
-
-/* Related Courses */
-.related-courses__header-title {
-  display: block;
-  font-size: 1.8rem;
-  color: var(--dark-color);
-  margin-bottom: 1.5rem;
-}
-
-.related-courses__list {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.related-courses__link {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.related-courses__img {
-  width: 20%;
-  border-radius: 0.5rem;
-}
-
-.related-courses__title {
-  font-size: 1.3rem;
-  color: #555555;
-  font-weight: bold;
-  transition: color 250ms ease;
-}
-
-.related-courses__title:hover {
-  color: #1e83f0;
 }
