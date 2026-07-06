@@ -7,6 +7,7 @@
 @import "course-box.css";
 @import "breadcrumb.css";
 @import "related-course.css";
+@import "comments.css";
 @import "pagination.css";
 @import "footer.css";
 
@@ -24,7 +25,185 @@
   width: 35%;
 }
 
+/*  ============= Utility Classes ============= */
+.paragraph {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: #7d7e7f;
+}
+
+/*  ============= Section: Article ============= */
+.article {
+  border-radius: 0.5rem;
+  padding: 2.2rem;
+  box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+
+.article__title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: var(--dark-color);
+  border-bottom: 2px solid #f3f3f3;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.article__tags {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 2rem;
+}
+.article__tags svg {
+  font-size: 1.7rem;
+  color: #c7c7c7;
+}
+
+.article__tag-link {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+
+.article__score {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+.article__score-icons {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.article__score-icons svg {
+  color: #ff943d;
+}
+
+.article__score-star {
+  margin-left: -0.4rem;
+}
+
+.article__score-text {
+  font-size: 1.7rem;
+  color: #7d7d7f;
+}
+
+.article__read {
+  background-color: #f2f2f2;
+  border-radius: 3rem;
+  padding: 2rem 3rem;
+  margin: 3rem 0;
+}
+
+.article__read-title {
+  display: block;
+  color: #333333;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.article__read-link {
+  line-height: 2;
+  font-size: 1.5rem;
+  color: #1e83f0;
+}
+
+.article__read-link:hover {
+  text-decoration: underline;
+}
+
+.article-second__banner {
+  display: block;
+  margin: 0 auto;
+}
+
+.article-section {
+  margin: 5rem 0;
+}
+
+.article-section__title {
+  font-size: 2.4rem;
+  color: #008c25;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.article-section__paragraph {
+  margin: 2rem 0;
+}
+
+.article-section__banner {
+  display: block;
+  margin: 0 auto;
+}
+
+.article-social {
+  display: flex;
+  align-items: center;
+}
+
+.article-social__title {
+  font-size: 1.5rem;
+  color: #7d7e7f;
+}
+
+.article-social__icons {
+  display: flex;
+}
+
+.article-social__link {
+  display: flex;
+  align-items: center;
+  margin: 0 0.3rem;
+  color: #7b868a;
+}
+
+.article-social__link svg {
+  font-size: 1.7rem;
+}
+
+/*  ============= Section: Article Suggestion ============= */
+.article-suggestion {
+  margin: 4rem 0;
+  padding: 3.5rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: #f0f2f7;
+  display: flex;
+  align-items: center;
+}
+
+.article-suggestion__right {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.article-suggestion__link {
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.article-suggestion__icon {
+  color: #adb5db;
+  font-size: 2rem;
+  transition: all 400ms ease;
+}
+
+.article-suggestion__icon:hover {
+  color: #0d6efd;
+}
+
+.article-suggestion__left {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
 /*  ============= Sidebar ============= */
+
 /* Quick Access Links */
 .quick-access__list {
   margin-top: 2rem;
