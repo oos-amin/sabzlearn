@@ -166,18 +166,30 @@
     <main class="main">
       <section class="login-register">
         <div class="login">
-          <span class="login__title">ورود به حساب کاربری</span>
-          <span class="login__subtitle">خوشحالیم دوباره میبینیمت دوست عزیز :) </span>
+          <span class="login__title">ایجاد حساب کاربری جدید</span>
+          <span class="login__subtitle">به خونواده سبزلرن خوش اومدی</span>
           <div class="login__new-member">
-            <span class="login__new-member-text">کاربر جدید هستید؟</span>
-            <a href="register.html" class="login__new-member-link">ثبت نام</a>
+            <span class="login__new-member-text">قبلا حساب کاربری دارید؟</span>
+            <a href="login.html" class="login__new-member-link">لاگین</a>
           </div>
 
           <!-- Form -->
           <form action="" class="login-form">
             <div class="login-form__username">
-              <input type="text" class="login-form__username-input" placeholder="نام کاربری یا آدرس ایمیل" />
+              <input type="text" class="login-form__username-input" placeholder="نام و نام خانوادگی" />
               <i class="fas fa-user"></i>
+            </div>
+            <div class="login-form__username">
+              <input type="text" class="login-form__username-input" placeholder="نام کاربری" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="login-form__username">
+              <input type="email" class="login-form__username-input" placeholder="آدرس ایمیل" />
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="login-form__password">
+              <input type="text" class="login-form__username-input" placeholder="شماره تماس" />
+              <i class="fas fa-phone"></i>
             </div>
             <div class="login-form__password">
               <input type="text" class="login-form__password-input" placeholder="رمز عبور" />
@@ -185,14 +197,13 @@
             </div>
             <button type="submit" class="login-form__button">
               <i class="fas fa-right-from-bracket"></i>
-              ورود
+              ثبت نام
             </button>
             <div class="login-form__setting">
               <label for="" class="login-form__setting-remember">
                 <input type="checkbox" name="" class="login-form__setting-checkbox" />
                 <span class="login-form__setting-text">مرا بخاطر داشته باش</span>
               </label>
-              <a href="#" class="login-form__setting-forget">رمز عبور را فراموش کرده اید؟</a>
             </div>
           </form>
         </div>
