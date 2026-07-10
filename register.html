@@ -176,26 +176,26 @@
           <!-- Form -->
           <form action="" class="login-form">
             <div class="login-form__username">
-              <input type="text" class="login-form__username-input" placeholder="نام و نام خانوادگی" />
+              <input type="text" class="login-form__username-input" id="name" placeholder="نام و نام خانوادگی" />
               <i class="fas fa-user"></i>
             </div>
             <div class="login-form__username">
-              <input type="text" class="login-form__username-input" placeholder="نام کاربری" />
+              <input type="text" class="login-form__username-input" id="username" placeholder="نام کاربری" />
               <i class="fas fa-user"></i>
             </div>
             <div class="login-form__username">
-              <input type="email" class="login-form__username-input" placeholder="آدرس ایمیل" />
+              <input type="email" class="login-form__username-input" id="email" placeholder="آدرس ایمیل" />
               <i class="fas fa-envelope"></i>
             </div>
             <div class="login-form__password">
-              <input type="text" class="login-form__username-input" placeholder="شماره تماس" />
+              <input type="text" class="login-form__username-input" id="phone" placeholder="شماره تماس" />
               <i class="fas fa-phone"></i>
             </div>
             <div class="login-form__password">
-              <input type="text" class="login-form__password-input" placeholder="رمز عبور" />
+              <input type="text" class="login-form__password-input" id="password" placeholder="رمز عبور" />
               <i class="fas fa-lock"></i>
             </div>
-            <button type="submit" class="login-form__button">
+            <button type="submit" class="login-form__button" id="register-btn">
               <i class="fas fa-right-from-bracket"></i>
               ثبت نام
             </button>
@@ -260,5 +260,7 @@
 
     <script src="vendor/FontAwesome/font-awesome.min.js"></script>
     <script src="vendor/Swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/register.js" type="module"></script>
   </body>
 </html>
