@@ -1,5 +1,7 @@
 "use strict";
 
+import { showSwal, saveIntoLocalStorage } from "./utils.js";
+
 const register = () => {
   const name = document.querySelector("#name");
   const username = document.querySelector("#username");
@@ -25,20 +27,17 @@ const register = () => {
   })
     .then((response) => {
       if (response.status === 201) {
-        Swal.fire({
-          icon: "success",
-          title: "ثبت نام با موفقیت انجام شد.",
-        }).then(() => {
+        showSwal("success", "ثبت نام با موفقیت انجام شد.", "رفتن به پنل", () => {
           location.href = "index.html";
         });
       } else if (response.status === 409) {
-        Swal.fire({
-          icon: "error",
-          title: "نام کاربری یا ایمیل قبلا استفاده شده",
-        });
+        showSwal("error", "نام کاربری یا ایمیل قبلا استفاده شده", "تایید", () => {});
       }
+      return response.json();
     })
-    .then((result) => console.log(result));
+    .then((result) => {
+      saveIntoLocalStorage("user", { token: result.accessToken });
+    });
 };
 
 export { register };
